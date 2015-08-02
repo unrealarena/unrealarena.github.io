@@ -1,0 +1,26 @@
+---
+---
+<section class="news">
+  <h1>News</h1>
+  <table>
+    {% for post in paginator.posts %}
+    <tr>
+      <td class="date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_long_string }}</time></td>
+      <td class="title"><a href="{{ post.url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+	</table>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | replace: '/index.html', '' }}" class="pag-left">« Newer</a>
+    {% else %}
+    <span class="pag-left disabled">« Newer</span>
+    {% endif %}
+    <span>[ {{ paginator.page }} / {{ paginator.total_pages }} ]</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="pag-right">Older »</a>
+    {% else %}
+    <span class="pag-right disabled">Older »</span>
+    {% endif %}
+  </div>
+</section>

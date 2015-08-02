@@ -1,0 +1,25 @@
+---
+home: true
+---
+<p>Unreal Arena is a fast-paced first-person shooter that aims to merge the universes of Unreal Tournament<sup><a href="/disclaimer">**</a></sup> and Quake III Arena<sup><a href="/disclaimer">**</a></sup>. The idea behind it is very simple: the player can choose from either side, determining in this way which weapons/items/movements are available, and fight against other players of the opposite faction with their own traits.</p>
+<div class="slideshow">
+  {% for image in site.data.slideshow.images %}
+  <figure><img src="{{ image.path }}" alt=""></figure>
+  {% endfor %}
+</div>
+<p>The game is a community developed open-source project powered by the <a href="https://www.unvanquished.net/">Daemon</a> engine and has all content recreated from scratch inspired by the original works.</p>
+<p>If you would like to be part of our team please contact us @ <a href="http://webchat.quakenet.org/?channels=unrealarena">QuakeNet</a>!!</p>
+<section class="news latest">
+	<h2>Latest News</h2>
+  <table>
+    {% for post in site.posts limit:3 %}
+    <tr>
+      <td class="date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_long_string }}</time></td>
+      <td class="title"><a href="{{ post.url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+	</table>
+	<div class="pagination">
+    <a href="/news" class="pag-right single">More »</a>
+	</div>
+</section>
