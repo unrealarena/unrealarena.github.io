@@ -1,3 +1,5 @@
 images:
   - path: /images/teaser-campgrounds.jpg
+    alt: Campgrounds
   - path: /images/teaser-deck16.jpg
+    alt: Deck16
