@@ -14,3 +14,6 @@ smartwatches!!!
 </figure>
 
 Stay tuned for updates!
+
+[Update: unfortunately we haven't figured out yet how to plug mouse & keyboard
+into a smartwatch so we are going to leave it at that for now.]
