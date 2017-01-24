@@ -1,5 +1,7 @@
 ---
 title: Unreal Watch
+description: Very soon you will be able to play Unreal Arena with your friends on your smartwatches!!!
+image: /images/unrealwatch.jpg
 ---
 
 Hello fighters!

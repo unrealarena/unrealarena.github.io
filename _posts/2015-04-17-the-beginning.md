@@ -1,5 +1,7 @@
 ---
 title: The Beginning
+description: Today we are pleased to announce the beginning of the Unreal Arena project.
+image: /images/logo.png
 ---
 
 <div class="clearfix">

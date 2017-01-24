@@ -2,6 +2,7 @@ gems:
   - jekyll-feed
   - jekyll-mentions
   - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
 
 paginate: 20

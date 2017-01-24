@@ -1,5 +1,7 @@
 ---
 title: Snapshots
+description: From now on we will split the development between a release and the following into smaller stages that we are going to call *snapshots*.
+image: /images/campgrounds_0.2.jpg
 ---
 
 From now on we will split the development between a release and the following

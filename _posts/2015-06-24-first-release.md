@@ -1,5 +1,7 @@
 ---
 title: First Release
+description: Now the time has come to put together all pieces and pack the first release!
+image: /images/campgrounds_0.1.1.jpg
 ---
 
 During last months we have worked hard first to set up what is needed for the

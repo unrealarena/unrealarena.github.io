@@ -3,10 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    {% if page.homepage %}
-    <meta name="description" content="Unreal Arena is a fast-paced FPS that aims to merge Unreal Tournament and Quake III Arena universes">
-    {% endif %}
-    <title>Unreal Arena</title>
     <link href="/favicon.ico" rel="icon">
     <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
     {% if page.homepage %}
@@ -18,6 +14,7 @@
     <link href="//fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="/css/styles.min.css" rel="stylesheet">
     <link href="/feed.xml" rel="alternate" type="application/atom+xml" title="Feed">
+    {% seo %}
   </head>
   <body>
     <div class="wrapper">

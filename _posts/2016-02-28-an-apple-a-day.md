@@ -1,5 +1,7 @@
 ---
 title: An Apple a Day...
+description: Now you can run Unreal Arena on any Mac that has OS X Mavericks or newer.
+image: /images/apple.png
 ---
 
 <div class="clearfix">
