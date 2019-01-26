@@ -170,15 +170,15 @@ footer {
 }
 
 a.social-irc:hover {
-  color: #f0f7ff;
+  color: #e0e0e0;
 }
 
-a.social-github:hover {
-  color: #fff;
+a.social-discord:hover {
+  color: #7289DA;
 }
 
 a.social-rss:hover {
-  color: #ff6600;
+  color: #ff8000;
 }
 
 .copyright {
